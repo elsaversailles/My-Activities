@@ -8,10 +8,10 @@ int main(int argc, char** argv)
 	data = malloc(sizeof(int) * datacount);
 	if (!data) {
 		perror("Memory Issue");
-        free(data);
+        
 	}
 	memset(data, 0, sizeof(int)*datacount);
-	
+	free(data);
 	char n[datacount];
 	int i;
 	for (i = 0; n[i] != '\0'; ++i);
