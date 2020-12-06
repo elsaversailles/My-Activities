@@ -8,6 +8,7 @@ int main(int argc, char** argv)
 	data = malloc(sizeof(int) * datacount);
 	if (!data) {
 		perror("Memory Issue");
+        free(data);
 	}
 	memset(data, 0, sizeof(int)*datacount);
 	
