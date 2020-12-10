@@ -2,17 +2,15 @@
 #include <string>
 using namespace std;
 
-#define length 10
 
 int main() {
 
 	cout<<"What's your first name? ";
-	std::string fname;
 	std::getline(cin, fname);
 	printf ("\n");
 	cout<<"Nice! What's your Middle initial? ";
 	std::string mname;
-	std::cin >> mname;
+	std::c >> mname;
 	printf ("\n");
 	cout<<"Awesome! Lastly, enter your Surname! ";
 	std::string sname;
