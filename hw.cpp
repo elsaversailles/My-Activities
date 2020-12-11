@@ -1,23 +1,14 @@
 #include <iostream>
 #include <string>
+#define c  printf ("\n")
+#define b std::string
+#define d std::cin >>
+#define a cout<< 
+#define e <<
 using namespace std;
-
-
 int main() {
-
-	cout<<"What's your first name? ";
-	std::getline(cin, fname);
-	printf ("\n");
-	cout<<"Nice! What's your Middle initial? ";
-	std::string mname;
-	std::c >> mname;
-	printf ("\n");
-	cout<<"Awesome! Lastly, enter your Surname! ";
-	std::string sname;
-	std::cin >> sname;
-	printf ("\n");
-	
-	cout << "Good day! " + fname << " " + mname << ". " + sname << + "\nHave a nice day " + fname + " ingat :)";
-		cout << endl;
-	return 0;
+	a"What's your First name? ";b f;
+	std::getline(cin, f); c; a"Nice! What's your Middle initial? "; b m; d m; c;
+	a"Awesome! Lastly, enter your Surname! "; b s; d s; c;
+	a "Good day! " + f e " " + m e ". " + s e + "\nHave a nice day! " + f + " ingat :)"; a endl; return 0;
 }
